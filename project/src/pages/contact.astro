@@ -7,34 +7,12 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
     <h1>Contact</h1>
 
-    <p>Have questions about our classes or want to schedule a trial session? Fill out the form below and we'll get back to you as soon as possible. We look forward to hearing from you!</p>
+    <p>
+        For enquiries about classes or trial sessions, please email:
+    </p>
+    <p>
+        <a href="mailto:Johnnysticks73@gmail.com">Johnnysticks73@gmail.com</a>
+    </p>
 
-    <form class="form" action="https://formspree.io/f/xeeqkogd" method="POST">
-
-    <input type="hidden" name="_next" value="https://silv3rp.github.io/project/contact2/" />
-
-    <label for="name">Name:</label><br>
-
-    <input type="text" id="name" name="name" required><br><br>
-
-    <label for="email">Email:</label><br>
-
-    <input type="email" id="email" name="email" required><br><br>
-
-    <label for ="phone">Phone Number:</label><br>
-
-    <input type="tel" id="phone" name="phone" required><br><br>
-
-    <label for="subject">Subject:</label><br>
-
-    <input type="text" id="subject" name="subject" required><br><br>
-
-    <label for="message">Message:</label><br>
-
-    <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-    <strong><button type="submit" class="submit-button">Submit</button></strong>
-
-    </form>
 
 </Layout>
